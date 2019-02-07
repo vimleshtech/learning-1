@@ -41,6 +41,9 @@ public class Test1 {
 	  driver.findElement(By.id("btnSubmit")).click();
 	  logger.info("login functin completed");
 	  
+	
+	  //take screen shot
+	  
 	  //screen shot
 	 File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	 FileHandler.copy(src, new File("C:\\Users\\welcome\\Desktop\\out.png"));
